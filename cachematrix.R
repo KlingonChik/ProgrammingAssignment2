@@ -53,33 +53,3 @@
 
 
 
-#############################################################################
-# FOR TESTING THE 2 FUNCTIONS ABOVE
-#source("cachematrix.R")
-#inMatrix=matrix(c(4, 2, 1, 2, 5, 4, 2, 1, 3),nrow=3,ncol=3)
-#x<-makeCacheMatrix(inMatrix)
-#x$get
-#cacheSolve(x)
-
-
-#inMatrix=matrix(c(2,3,4,5),nrow=2, ncol=2)
-#x$set(inMatrix)
-#x$get()
-#cacheSolve(x)
-=======
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
-
-makeCacheMatrix <- function(x = matrix()) {
-
-}
-
-
-## Write a short comment describing this function
-
-cacheSolve <- function(x, ...) {
-        ## Return a matrix that is the inverse of 'x'
-}
->>>>>>> 7f657dd22ac20d22698c53b23f0057e1a12c09b7
